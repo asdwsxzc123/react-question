@@ -8,5 +8,11 @@
 
 
 ### 要求
-- 管理token 包括token的取得、持久化、刷新、刪除，對應接口在 `src/api/interface/auth.ts` 
+- 管理token 包括token的取得、持久化、刷新、刪除，對應接口在 `src/api/interface/auth.ts`
 - 定義請求失敗的默認行為，暫定為彈出toast。該行為需抽象出interface以適配任何ui框架
+
+
+### 完成任务
+1. 完成 request 功能
+2. 实现 token 管理
+3. 抽象 toast 弹框
